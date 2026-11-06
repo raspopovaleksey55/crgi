@@ -52,6 +52,10 @@ header.site .wrap {
   padding: 18px 20px;
   flex-wrap: wrap;
 }
+.brand { display: flex; align-items: center; gap: 14px; }
+.brand .mark { height: 64px; width: auto; flex: 0 0 auto; }
+.logo-full { max-width: 380px; height: auto; margin: 0 0 22px; }
+
 .brand b {
   display: block; font-size: 20px; line-height: 1.2; color: var(--accent-dark);
 }
