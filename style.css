@@ -113,7 +113,7 @@ li { margin-bottom: 6px; }
 .projects th, .projects td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .projects th { font-family: "Segoe UI", Tahoma, sans-serif; font-size: 13px; color: var(--muted); text-transform: none; background: #f7faf9; }
 .projects td.num, .projects th.num { text-align: right; white-space: nowrap; }
-.projects tr:last-child td { font-weight: 600; border-top: 2px solid var(--accent); }
+.projects tr.total td { font-weight: 600; border-top: 2px solid var(--accent); }
 
 /* проекты */
 .project { border-top: 1px solid var(--line); padding-top: 18px; margin-top: 26px; }
